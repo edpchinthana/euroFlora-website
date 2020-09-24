@@ -1,0 +1,39 @@
+#navigation-bar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#navigation-bar ul li{
+    margin-left: 40px;
+}
+
+#navigation-bar ul li:nth-child(2){
+    margin-left: auto;
+}
+
+#navigation-bar ul li:last-child{
+    margin-right: 60px;
+}
+
+/* unvisited link */
+a:link {
+    color: rgb(106, 37, 0);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(106, 37, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(106, 37, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color:rgb(106, 37, 0);
+  }
