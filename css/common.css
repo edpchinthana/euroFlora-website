@@ -3,7 +3,16 @@ body{
     padding: 0px;
 }
 
+#navigation-bar{
+    font-family:sans-serif;
+    font-weight: 600;
+    height: 50px;
+    background-image: linear-gradient(to right, rgb(223, 215, 204), rgb(247, 247, 245),rgb(223, 215, 204));
+    margin: 0px;
+}
+
 #navigation-bar ul{
+    margin: 0px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -15,12 +24,13 @@ body{
     margin-left: 30px;
     align-content: center;
     line-height: 50px;
-
+    height: 50px;
 }
 
 #navigation-bar ul li a{
     display: flex;
     flex-direction: row;
+    height: 50px;
 }
 
 #navigation-bar ul li img{
@@ -35,7 +45,7 @@ body{
 }
 
 #navigation-bar ul li:last-child{
-    margin-right: 30px;
+    margin-right: 100px!important;
 }
 
 /* unvisited link */
