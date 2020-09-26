@@ -4,14 +4,35 @@
     width: 1140px;
 }
 
-.banner img:first-child{
+#banner-img-1{
     width: 780px;
     height: 280px;
     object-fit: cover;
+    border-radius: 5px 0px 0px 5px;
 }
 
-.banner img:last-child{
+#banner-img-2{
     width: 340px;
-    height: 280px;
+    height: 280px!important;
     object-fit: cover;
+    border-radius: 0px 5px 5px 0px;
+}
+
+#banner-text-1{
+    position: absolute;
+    top: -90px;
+    right:380px;
+    background-color: rgba(245, 245, 245, 0.842);
+    padding: 20px;
+    
+}
+
+#banner-text-2{
+    position: absolute;
+    top: -40px;
+    right:0px;
+    background-color: rgba(245, 245, 245, 0.787);
+    padding: 10px;
+    word-wrap: break-word;
+    width: 320px;
 }

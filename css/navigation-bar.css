@@ -9,6 +9,7 @@
     height: 40px;
     background-image: linear-gradient(to right, rgb(223, 215, 204), rgb(247, 247, 245),rgb(223, 215, 204));
     margin: 0px;
+    border: 1px solid var(--primary-color);
 }
 
 #navigation-bar ul{
