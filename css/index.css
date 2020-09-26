@@ -1,0 +1,17 @@
+.banner{
+    display: inline;
+    position: relative;
+    width: 1140px;
+}
+
+.banner img:first-child{
+    width: 780px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.banner img:last-child{
+    width: 340px;
+    height: 280px;
+    object-fit: cover;
+}
