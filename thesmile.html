@@ -29,7 +29,15 @@
                     <img src="res/img/the smile.jpg" alt="">
                     <br>
                     <hr class="solid-divider">
-                    Price(delivery included)
+                    Price (delivery included)
+                <div>
+                    <div class="delivery-type-radio"><input name="delivery-type" type="radio" checked="checked"> <span>Standard 78.90 &euro;</span></div>
+                    <div class="delivery-type-radio"><input name="delivery-type" type="radio"> <span>Deluxe 98.90 &euro;</span></div>
+                    <div class="delivery-type-radio"><input name="delivery-type" type="radio"> <span>Premium 118.90 &euro;</span></div>
+                </div><br>
+                <div class="total">
+                    Total: 78.90&euro; (delivery included)
+                </div>
                 </div>
                 <div class="column-2">
                     <h1>The Smile</h1>
@@ -41,10 +49,10 @@
                         <hr class="solid-divider">
                         <br>
                         <form class="form-grid" action="">
-                            <span>Delivery date<sup style="color: red;">*</sup></span><input type="date" name="" id="" required>
+                            <span>Delivery date<sup style="color: red;">*</sup></span><input type="date" name="" id="" required style="width: 140px;">
                             <span>Delivery time </span>
                             <span>
-                                <input type="radio"  name="delivery-time">
+                                <input type="radio"  name="delivery-time" checked="checked">
                             <span>Working Day - Free (9am-9pm)</span><br>
                             <input name="delivery-time" type="radio">
                             <span>Working Day - Free (9am-9pm)</span>
