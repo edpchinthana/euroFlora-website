@@ -1,0 +1,29 @@
+.showcase{
+    display: flex;
+    flex-direction: row;
+}
+
+.column-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 500px;
+    padding: 20px;
+}
+
+.column-1 img{
+    width: 400px;
+    height: 400px;
+    object-fit:cover;
+}
+
+.column-2{
+    padding: 20px;
+    width: 640px;
+}
+
+.form-grid{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    row-gap: 20px;
+}

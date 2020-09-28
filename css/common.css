@@ -46,3 +46,18 @@ a:link {
   a:active {
     color:var(--primary-color);
   }
+
+  .solid-divider{
+    border-top: 1px solid rgb(189, 189, 189);
+    width: 100%;
+}
+
+.primary-button{
+  background-color: var(--primary-color);
+  color: white;
+  width: 150px;
+  border-radius: 5px;
+  
+  font-size: 14px;
+  padding: 10px 20px 10px 20px;
+}
